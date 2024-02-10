@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7eded; /* Fondo rosa claro */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    font-size: 42px;
+    color: #fff6f5; /* Rojo fuerte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  article {
+    width: 800px;
+    position: relative;
+    right: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #b6a8a8;
+    font-size: 12px;
+  }
+  .gradient {
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(334deg, #ff0000, #9c1b1b, #ff4079);
+      background-size: 180% 180%;
+      animation: gradient-animation 6s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
