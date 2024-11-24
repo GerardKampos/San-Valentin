@@ -43,6 +43,28 @@ footer {
   color: #f3e0e0;
   font-size: 12px;
 }
+button {
+  background-color: #b10101; /* Rojo fuerte */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Espacio superior */
+}
+
+button:hover {
+  background-color: #8b0000; /* Rojo más oscuro */
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #600000; /* Rojo aún más oscuro */
+  transform: scale(0.95);
+}
 .gradient {
   width: 100%;
   height: 100%;
